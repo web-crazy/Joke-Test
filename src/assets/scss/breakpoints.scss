@@ -1,0 +1,23 @@
+$screen-sm-width: 768px;
+$screen-md-width: 1024px;
+$screen-lg-width: 1440px;
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-width}) {
+      @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-width}) {
+      @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-width}) {
+      @content;
+  }
+}

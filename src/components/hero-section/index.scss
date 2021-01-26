@@ -1,0 +1,24 @@
+@import "src/assets/scss/index.scss";
+
+.hero-section {
+  height: 320px;
+  background: url(../../assets/images/hero.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .title {
+    font-size: 48px;
+    line-height: 72px;
+    color: $color-orange-3;
+  }
+
+  .description {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: $color-white;
+  }
+}

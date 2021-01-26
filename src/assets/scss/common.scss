@@ -1,0 +1,23 @@
+@import "./breakpoints.scss";
+
+.container {
+  margin: 0 auto;
+
+  @include sm {
+    width: 740px;
+  }
+  
+  @include md {
+    width: 980px;
+  }
+  
+  @include lg {
+    width: 1200px;
+  }
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}

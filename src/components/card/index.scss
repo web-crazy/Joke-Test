@@ -1,0 +1,54 @@
+@import "src/assets/scss/index.scss";
+
+.card-wrapper {
+  padding: 16px; 
+  border: solid 1px $color-gray-2;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.15);
+  color: $color-gray-1;
+  display: flex;
+  flex-direction: column;
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    img {
+      margin-right: 8px;
+    }
+
+    .title {
+      font-size: $font-size-large;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  .card-body {
+    font-size: $font-size-medium;
+    margin-bottom: 32px;
+    line-height: 22px;
+    text-align: left;
+    flex: 1;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+
+    .more-action {
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      color: $color-orange-3;
+      font-weight: 600;
+      font-size: $font-size-small;
+      cursor: pointer;
+
+      img {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
